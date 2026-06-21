@@ -22337,6 +22337,7 @@ var seedVendors = [
 // src/App.tsx
 var import_jsx_runtime = __toESM(require_jsx_runtime(), 1);
 var stateKey = "actuary-ai-act-command-center";
+var pilotRequestUrl = "mailto:himanibrahim@gmail.com?subject=Actuary%20design%20partner%20pilot&body=Hi%20Himani%2C%0A%0AI%20would%20like%20to%20explore%20a%2030-day%20Actuary%20design%20partner%20pilot.%0A%0ACompany%3A%0AName%3A%0ARole%3A%0A%0ARegards%2C";
 var viewItems = [
   { label: "Overview", icon: LayoutDashboard },
   { label: "AI systems", icon: Sparkles },
@@ -22713,6 +22714,10 @@ function App() {
           /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("button", { className: "button tertiary", onClick: () => setModal("pilot"), children: [
             /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Rocket, { size: 17 }),
             "Set up pilot"
+          ] }),
+          /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("a", { className: "button secondary pilot-request", href: pilotRequestUrl, children: [
+            /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Rocket, { size: 17 }),
+            "Request pilot"
           ] }),
           /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("button", { className: "button primary", onClick: () => setModal("system"), children: [
             /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Plus, { size: 18 }),
