@@ -274,6 +274,28 @@ kbd {
   align-items: center;
   gap: 9px;
 }
+.demo-mode {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 8px;
+  border: 1px solid #d7e8df;
+  border-radius: 5px;
+  color: #397066;
+  background: #f3faf6;
+  font-size: 10px;
+  font-weight: 800;
+  white-space: nowrap;
+}
+.pilot-request {
+  min-width: 124px;
+}
+.pilot-action-group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 9px;
+}
 .button,
 .icon-button {
   display: inline-flex;
@@ -1583,6 +1605,56 @@ kbd {
   font-size: 12px;
   line-height: 1.45;
 }
+.pilot-offer {
+  display: grid;
+  grid-template-columns: minmax(0, 1.05fr) minmax(440px, 1fr);
+  gap: 28px;
+  align-items: end;
+  margin-bottom: 15px;
+  padding: 22px 24px;
+  border-top: 1px solid #d8e7df;
+  border-bottom: 1px solid #d8e7df;
+  background: #edf7f1;
+}
+.pilot-offer h2 {
+  margin: 7px 0 0;
+  color: #214943;
+  font-size: 20px;
+  line-height: 1.2;
+}
+.pilot-offer p:not(.eyebrow) {
+  max-width: 550px;
+  margin: 8px 0 0;
+  color: #637973;
+  font-size: 12px;
+  line-height: 1.45;
+}
+.pilot-offer dl {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+  margin: 0;
+}
+.pilot-offer dl div {
+  display: grid;
+  gap: 5px;
+  padding-left: 13px;
+  border-left: 2px solid #9acdbb;
+}
+.pilot-offer dt {
+  color: #6f827d;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+}
+.pilot-offer dd {
+  margin: 0;
+  color: #2f4944;
+  font-size: 12px;
+  font-weight: 760;
+  line-height: 1.35;
+}
 .pilot-metrics {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -2081,6 +2153,24 @@ kbd {
 .form-field textarea::placeholder {
   color: #9aa5a1;
 }
+.form-notice {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  margin: 0;
+  padding: 10px 11px;
+  border: 1px solid #d8e9e0;
+  border-radius: 5px;
+  background: #f4fbf7;
+  color: #4c6d65;
+  font-size: 11px;
+  line-height: 1.4;
+}
+.form-notice svg {
+  flex: 0 0 auto;
+  margin-top: 1px;
+  color: #16776c;
+}
 .modal-actions {
   display: flex;
   justify-content: flex-end;
@@ -2198,7 +2288,8 @@ kbd {
   .controls-layout,
   .report-layout,
   .pilot-layout,
-  .pilot-bottom-grid {
+  .pilot-bottom-grid,
+  .pilot-offer {
     grid-template-columns: 1fr;
   }
   .radar-layout {
@@ -2260,8 +2351,17 @@ kbd {
   .search-box {
     width: 100%;
   }
+  .demo-mode,
   .top-actions .button.secondary,
-  .top-actions .button.primary {
+  .top-actions .button.primary:not(.pilot-request),
+  .top-actions .button.tertiary {
+    display: none;
+  }
+  .top-actions .pilot-request {
+    min-width: 38px;
+    padding: 0 10px;
+  }
+  .pilot-request-label {
     display: none;
   }
   .content {
@@ -2347,6 +2447,17 @@ kbd {
   .pilot-empty .button {
     grid-column: span 2;
     justify-self: start;
+  }
+  .pilot-action-group .button.tertiary {
+    display: none;
+  }
+  .pilot-offer {
+    gap: 19px;
+    padding: 19px;
+  }
+  .pilot-offer dl {
+    grid-template-columns: 1fr;
+    gap: 10px;
   }
   .pilot-metrics {
     grid-template-columns: 1fr;

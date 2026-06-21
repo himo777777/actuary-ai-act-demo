@@ -21957,15 +21957,22 @@ var __iconNode16 = [
 ];
 var LayoutDashboard = createLucideIcon("layout-dashboard", __iconNode16);
 
-// node_modules/lucide-react/dist/esm/icons/plus.js
+// node_modules/lucide-react/dist/esm/icons/mail.js
 var __iconNode17 = [
+  ["path", { d: "m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7", key: "132q7q" }],
+  ["rect", { x: "2", y: "4", width: "20", height: "16", rx: "2", key: "izxlao" }]
+];
+var Mail = createLucideIcon("mail", __iconNode17);
+
+// node_modules/lucide-react/dist/esm/icons/plus.js
+var __iconNode18 = [
   ["path", { d: "M5 12h14", key: "1ays0h" }],
   ["path", { d: "M12 5v14", key: "s699le" }]
 ];
-var Plus = createLucideIcon("plus", __iconNode17);
+var Plus = createLucideIcon("plus", __iconNode18);
 
 // node_modules/lucide-react/dist/esm/icons/rocket.js
-var __iconNode18 = [
+var __iconNode19 = [
   [
     "path",
     {
@@ -21983,17 +21990,17 @@ var __iconNode18 = [
   ["path", { d: "M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0", key: "1f8sc4" }],
   ["path", { d: "M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5", key: "qeys4" }]
 ];
-var Rocket = createLucideIcon("rocket", __iconNode18);
+var Rocket = createLucideIcon("rocket", __iconNode19);
 
 // node_modules/lucide-react/dist/esm/icons/search.js
-var __iconNode19 = [
+var __iconNode20 = [
   ["path", { d: "m21 21-4.34-4.34", key: "14j7rj" }],
   ["circle", { cx: "11", cy: "11", r: "8", key: "4ej97u" }]
 ];
-var Search = createLucideIcon("search", __iconNode19);
+var Search = createLucideIcon("search", __iconNode20);
 
 // node_modules/lucide-react/dist/esm/icons/shield-alert.js
-var __iconNode20 = [
+var __iconNode21 = [
   [
     "path",
     {
@@ -22004,10 +22011,10 @@ var __iconNode20 = [
   ["path", { d: "M12 8v4", key: "1got3b" }],
   ["path", { d: "M12 16h.01", key: "1drbdi" }]
 ];
-var ShieldAlert = createLucideIcon("shield-alert", __iconNode20);
+var ShieldAlert = createLucideIcon("shield-alert", __iconNode21);
 
 // node_modules/lucide-react/dist/esm/icons/shield-check.js
-var __iconNode21 = [
+var __iconNode22 = [
   [
     "path",
     {
@@ -22017,10 +22024,10 @@ var __iconNode21 = [
   ],
   ["path", { d: "m9 12 2 2 4-4", key: "dzmm74" }]
 ];
-var ShieldCheck = createLucideIcon("shield-check", __iconNode21);
+var ShieldCheck = createLucideIcon("shield-check", __iconNode22);
 
 // node_modules/lucide-react/dist/esm/icons/sparkles.js
-var __iconNode22 = [
+var __iconNode23 = [
   [
     "path",
     {
@@ -22032,18 +22039,18 @@ var __iconNode22 = [
   ["path", { d: "M22 4h-4", key: "gwowj6" }],
   ["circle", { cx: "4", cy: "20", r: "2", key: "6kqj1y" }]
 ];
-var Sparkles = createLucideIcon("sparkles", __iconNode22);
+var Sparkles = createLucideIcon("sparkles", __iconNode23);
 
 // node_modules/lucide-react/dist/esm/icons/target.js
-var __iconNode23 = [
+var __iconNode24 = [
   ["circle", { cx: "12", cy: "12", r: "10", key: "1mglay" }],
   ["circle", { cx: "12", cy: "12", r: "6", key: "1vlfrh" }],
   ["circle", { cx: "12", cy: "12", r: "2", key: "1c9p78" }]
 ];
-var Target = createLucideIcon("target", __iconNode23);
+var Target = createLucideIcon("target", __iconNode24);
 
 // node_modules/lucide-react/dist/esm/icons/triangle-alert.js
-var __iconNode24 = [
+var __iconNode25 = [
   [
     "path",
     {
@@ -22054,22 +22061,22 @@ var __iconNode24 = [
   ["path", { d: "M12 9v4", key: "juzpu7" }],
   ["path", { d: "M12 17h.01", key: "p32p05" }]
 ];
-var TriangleAlert = createLucideIcon("triangle-alert", __iconNode24);
+var TriangleAlert = createLucideIcon("triangle-alert", __iconNode25);
 
 // node_modules/lucide-react/dist/esm/icons/users-round.js
-var __iconNode25 = [
+var __iconNode26 = [
   ["path", { d: "M18 21a8 8 0 0 0-16 0", key: "3ypg7q" }],
   ["circle", { cx: "10", cy: "8", r: "5", key: "o932ke" }],
   ["path", { d: "M22 20c0-3.37-2-6.5-4-8a5 5 0 0 0-.45-8.3", key: "10s06x" }]
 ];
-var UsersRound = createLucideIcon("users-round", __iconNode25);
+var UsersRound = createLucideIcon("users-round", __iconNode26);
 
 // node_modules/lucide-react/dist/esm/icons/x.js
-var __iconNode26 = [
+var __iconNode27 = [
   ["path", { d: "M18 6 6 18", key: "1bl5f8" }],
   ["path", { d: "m6 6 12 12", key: "d8bk6v" }]
 ];
-var X = createLucideIcon("x", __iconNode26);
+var X = createLucideIcon("x", __iconNode27);
 
 // src/App.tsx
 var import_react3 = __toESM(require_react(), 1);
@@ -22088,13 +22095,18 @@ var timeline = [
   },
   {
     date: "2026-08-02",
-    label: "Core Act applies",
-    detail: "Most obligations, including many high-risk requirements, apply."
+    label: "Transparency and enforcement milestone",
+    detail: "Transparency rules and enforcement begin applying. Confirm obligations for each use case."
+  },
+  {
+    date: "2027-12-02",
+    label: "Certain high-risk use cases",
+    detail: "Current Commission material gives some Annex III use cases a later timetable. Review legal applicability case by case."
   },
   {
     date: "2028-08-02",
     label: "Product-safety high-risk",
-    detail: "Embedded high-risk systems in regulated products complete their extended transition."
+    detail: "High-risk AI embedded in regulated products reaches its extended transition point."
   }
 ];
 var riskWeights = {
@@ -22337,7 +22349,6 @@ var seedVendors = [
 // src/App.tsx
 var import_jsx_runtime = __toESM(require_jsx_runtime(), 1);
 var stateKey = "actuary-ai-act-command-center";
-var pilotRequestUrl = "mailto:himanibrahim@gmail.com?subject=Actuary%20design%20partner%20pilot&body=Hi%20Himani%2C%0A%0AI%20would%20like%20to%20explore%20a%2030-day%20Actuary%20design%20partner%20pilot.%0A%0ACompany%3A%0AName%3A%0ARole%3A%0A%0ARegards%2C";
 var viewItems = [
   { label: "Overview", icon: LayoutDashboard },
   { label: "AI systems", icon: Sparkles },
@@ -22511,6 +22522,28 @@ function downloadPilotBrief(state) {
   anchor.click();
   URL.revokeObjectURL(url);
 }
+function createPilotRequestUrl(request) {
+  const subject = `Actuary design partner pilot: ${request.company}`;
+  const body = [
+    "Hi Himani,",
+    "",
+    "I would like to explore a focused 30-day Actuary design partner pilot.",
+    "",
+    `Company: ${request.company}`,
+    `Name: ${request.name}`,
+    `Role: ${request.role}`,
+    `Work email: ${request.email}`,
+    `AI systems in scope: ${request.portfolioSize}`,
+    `Primary goal: ${request.priority}`,
+    `Context: ${request.note || "Not provided"}`,
+    "",
+    "I understand that the public demo is for sample data only and will not include confidential information in this email.",
+    "",
+    "Regards,",
+    request.name
+  ].join("\n");
+  return `mailto:himanibrahim@gmail.com?${new URLSearchParams({ subject, body }).toString()}`;
+}
 function App() {
   const [appState, setAppState] = (0, import_react3.useState)(readState);
   const [view, setView] = (0, import_react3.useState)("Overview");
@@ -22603,6 +22636,11 @@ function App() {
       }
     }));
   }
+  function preparePilotRequest(request) {
+    window.location.href = createPilotRequestUrl(request);
+    setModal(null);
+    setToast("Pilot email prepared in your mail client");
+  }
   const quickNav = (nextView) => {
     setView(nextView);
     setSelectedSystemId(null);
@@ -22652,9 +22690,9 @@ function App() {
           /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { children: [
             /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("strong", { children: [
               coreDeadline,
-              " days to core Act"
+              " days to 2 Aug"
             ] }),
-            /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: "Most rules apply 2 Aug 2026" })
+            /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: "Check applicability by use case" })
           ] })
         ] }),
         /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("button", { className: "help-link", onClick: () => setToast("Help center is being connected"), children: [
@@ -22695,6 +22733,10 @@ function App() {
           /* @__PURE__ */ (0, import_jsx_runtime.jsx)("kbd", { children: "/" })
         ] }),
         /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { className: "top-actions", children: [
+          /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", { className: "demo-mode", children: [
+            /* @__PURE__ */ (0, import_jsx_runtime.jsx)(ShieldCheck, { size: 15 }),
+            " Demo data only"
+          ] }),
           /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(
             "button",
             {
@@ -22713,11 +22755,11 @@ function App() {
           ] }),
           /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("button", { className: "button tertiary", onClick: () => setModal("pilot"), children: [
             /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Rocket, { size: 17 }),
-            "Set up pilot"
+            "Pilot brief"
           ] }),
-          /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("a", { className: "button secondary pilot-request", href: pilotRequestUrl, children: [
-            /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Rocket, { size: 17 }),
-            "Request pilot"
+          /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("button", { className: "button primary pilot-request", title: "Request a pilot", onClick: () => setModal("request"), children: [
+            /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Mail, { size: 17 }),
+            /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { className: "pilot-request-label", children: "Request pilot" })
           ] }),
           /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("button", { className: "button primary", onClick: () => setModal("system"), children: [
             /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Plus, { size: 18 }),
@@ -22783,7 +22825,8 @@ function App() {
             onConfigure: () => setModal("pilot"),
             onToggleStep: togglePilotStep,
             onDownload: () => downloadPilotBrief(appState),
-            onNavigate: quickNav
+            onNavigate: quickNav,
+            onRequest: () => setModal("request")
           }
         ),
         view === "Reports" && /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
@@ -22847,6 +22890,13 @@ function App() {
         pilot: appState.pilot,
         onClose: () => setModal(null),
         onSubmit: savePilot
+      }
+    ),
+    modal === "request" && /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
+      PilotRequestModal,
+      {
+        onClose: () => setModal(null),
+        onSubmit: preparePilotRequest
       }
     ),
     toast && /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { className: "toast", role: "status", children: [
@@ -22918,7 +22968,7 @@ function Overview({
         ] }),
         /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { className: "metric-footer", children: [
           /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", { children: [
-            "Core obligations apply in ",
+            "Next AI Act milestone in ",
             coreDeadline,
             " days"
           ] }),
@@ -23476,7 +23526,8 @@ function Pilot({
   onConfigure,
   onToggleStep,
   onDownload,
-  onNavigate
+  onNavigate,
+  onRequest
 }) {
   const { pilot } = appState;
   const configured = Boolean(pilot.company);
@@ -23489,23 +23540,50 @@ function Pilot({
       {
         eyebrow: "Design partner motion",
         title: "Pilot workspace",
-        description: "Run a focused, evidence-led pilot before moving customer data into a secure production workspace.",
-        action: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("button", { className: "button primary", onClick: onConfigure, children: [
-          /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Rocket, { size: 18 }),
-          configured ? "Edit pilot brief" : "Set up pilot"
+        description: "Run a focused, evidence-led pilot with sample data first. Secure production access is a separate onboarding gate.",
+        action: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { className: "pilot-action-group", children: [
+          /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("button", { className: "button tertiary", onClick: onConfigure, children: [
+            /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Rocket, { size: 18 }),
+            configured ? "Edit pilot brief" : "Set up pilot"
+          ] }),
+          /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("button", { className: "button primary", onClick: onRequest, children: [
+            /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Mail, { size: 17 }),
+            "Request pilot"
+          ] })
         ] })
       }
     ),
     !configured && /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("section", { className: "pilot-empty panel", children: [
       /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { className: "pilot-empty-icon", children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Rocket, { size: 22 }) }),
       /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { children: [
-        /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { className: "eyebrow", children: "Ready when a buyer is" }),
-        /* @__PURE__ */ (0, import_jsx_runtime.jsx)("h2", { children: "Turn this demo into a 30-day design partner pilot." }),
-        /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { children: "Capture the account, sponsor, success metric, and systems in scope. The resulting brief is stored only in this browser and can be exported for a customer conversation." })
+        /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { className: "eyebrow", children: "A fixed outcome, not open-ended consulting" }),
+        /* @__PURE__ */ (0, import_jsx_runtime.jsx)("h2", { children: "Turn one AI workflow into a decision-ready operating baseline." }),
+        /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { children: "Start with 3 to 8 systems, one accountable sponsor, and a clear decision to improve. The pilot produces an owned inventory, evidence backlog, decision log, and readiness report." })
       ] }),
-      /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("button", { className: "button primary", onClick: onConfigure, children: [
-        "Create pilot brief ",
+      /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("button", { className: "button primary", onClick: onRequest, children: [
+        "Request a pilot ",
         /* @__PURE__ */ (0, import_jsx_runtime.jsx)(ArrowUpRight, { size: 17 })
+      ] })
+    ] }),
+    /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("section", { className: "pilot-offer", "aria-label": "Pilot offer", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { children: [
+        /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { className: "eyebrow", children: "30-day design partner pilot" }),
+        /* @__PURE__ */ (0, import_jsx_runtime.jsx)("h2", { children: "Get clarity before you scale AI use." }),
+        /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { children: "Actuary makes the operational work visible. It does not replace legal advice or make a compliance certification claim." })
+      ] }),
+      /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("dl", { children: [
+        /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { children: [
+          /* @__PURE__ */ (0, import_jsx_runtime.jsx)("dt", { children: "Scope" }),
+          /* @__PURE__ */ (0, import_jsx_runtime.jsx)("dd", { children: "3 to 8 AI systems" })
+        ] }),
+        /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { children: [
+          /* @__PURE__ */ (0, import_jsx_runtime.jsx)("dt", { children: "Working rhythm" }),
+          /* @__PURE__ */ (0, import_jsx_runtime.jsx)("dd", { children: "One owner review each week" })
+        ] }),
+        /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { children: [
+          /* @__PURE__ */ (0, import_jsx_runtime.jsx)("dt", { children: "Decision output" }),
+          /* @__PURE__ */ (0, import_jsx_runtime.jsx)("dd", { children: "Evidence-led readiness report" })
+        ] })
       ] })
     ] }),
     /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("section", { className: "pilot-metrics", "aria-label": "Pilot summary", children: [
@@ -23634,7 +23712,7 @@ function Pilot({
       /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("aside", { className: "pilot-safety-panel", children: [
         /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { className: "eyebrow", children: "Production safety gate" }),
         /* @__PURE__ */ (0, import_jsx_runtime.jsx)("h2", { children: "Keep real customer data out of demo mode." }),
-        /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { children: "This workspace uses browser storage only. Before onboarding a customer, enable authenticated workspaces, row-level tenant isolation, roles, audit logging, and a reviewed data-processing setup." }),
+        /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { children: "This workspace uses browser storage only. Before onboarding a customer, enable authenticated workspaces, tenant isolation, roles, audit logging, and a reviewed data-processing setup." }),
         /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { className: "pilot-safety-points", children: [
           /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", { children: [
             /* @__PURE__ */ (0, import_jsx_runtime.jsx)(ShieldCheck, { size: 17 }),
@@ -23943,6 +24021,91 @@ function AddEvidenceModal({
     ] })
   ] }) });
 }
+function PilotRequestModal({
+  onClose,
+  onSubmit
+}) {
+  const [form, setForm] = (0, import_react3.useState)({
+    company: "",
+    name: "",
+    role: "",
+    email: "",
+    portfolioSize: "3 to 8 systems",
+    priority: "Create a defensible AI system inventory",
+    note: ""
+  });
+  const canSubmit = form.company.trim() && form.name.trim() && form.role.trim() && form.email.trim();
+  return /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
+    ModalShell,
+    {
+      title: "Request a design partner pilot",
+      subtitle: "Answer a few practical questions and Actuary will prepare a tailored email. Do not include confidential, regulated, or personal information in this public demo.",
+      onClose,
+      children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(
+        "form",
+        {
+          className: "modal-form",
+          onSubmit: (event) => {
+            event.preventDefault();
+            if (!canSubmit) return;
+            onSubmit(form);
+          },
+          children: [
+            /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("label", { className: "form-field", children: [
+              /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: "Company" }),
+              /* @__PURE__ */ (0, import_jsx_runtime.jsx)("input", { autoFocus: true, value: form.company, onChange: (event) => setForm({ ...form, company: event.target.value }), placeholder: "e.g. Fjord Finance" })
+            ] }),
+            /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("label", { className: "form-field", children: [
+              /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: "Your name" }),
+              /* @__PURE__ */ (0, import_jsx_runtime.jsx)("input", { value: form.name, onChange: (event) => setForm({ ...form, name: event.target.value }), placeholder: "e.g. Hanna Lund" })
+            ] }),
+            /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("label", { className: "form-field", children: [
+              /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: "Role" }),
+              /* @__PURE__ */ (0, import_jsx_runtime.jsx)("input", { value: form.role, onChange: (event) => setForm({ ...form, role: event.target.value }), placeholder: "e.g. General Counsel" })
+            ] }),
+            /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("label", { className: "form-field", children: [
+              /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: "Work email" }),
+              /* @__PURE__ */ (0, import_jsx_runtime.jsx)("input", { type: "email", value: form.email, onChange: (event) => setForm({ ...form, email: event.target.value }), placeholder: "name@company.com" })
+            ] }),
+            /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("label", { className: "form-field", children: [
+              /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: "AI systems in scope" }),
+              /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("select", { value: form.portfolioSize, onChange: (event) => setForm({ ...form, portfolioSize: event.target.value }), children: [
+                /* @__PURE__ */ (0, import_jsx_runtime.jsx)("option", { children: "1 to 2 systems" }),
+                /* @__PURE__ */ (0, import_jsx_runtime.jsx)("option", { children: "3 to 8 systems" }),
+                /* @__PURE__ */ (0, import_jsx_runtime.jsx)("option", { children: "9 to 20 systems" }),
+                /* @__PURE__ */ (0, import_jsx_runtime.jsx)("option", { children: "More than 20 systems" })
+              ] })
+            ] }),
+            /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("label", { className: "form-field", children: [
+              /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: "Primary goal" }),
+              /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("select", { value: form.priority, onChange: (event) => setForm({ ...form, priority: event.target.value }), children: [
+                /* @__PURE__ */ (0, import_jsx_runtime.jsx)("option", { children: "Create a defensible AI system inventory" }),
+                /* @__PURE__ */ (0, import_jsx_runtime.jsx)("option", { children: "Close evidence and vendor documentation gaps" }),
+                /* @__PURE__ */ (0, import_jsx_runtime.jsx)("option", { children: "Prepare for a customer, board, or audit request" }),
+                /* @__PURE__ */ (0, import_jsx_runtime.jsx)("option", { children: "Review one high-impact AI workflow" })
+              ] })
+            ] }),
+            /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("label", { className: "form-field wide", children: [
+              /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: "Context, without confidential information" }),
+              /* @__PURE__ */ (0, import_jsx_runtime.jsx)("textarea", { value: form.note, onChange: (event) => setForm({ ...form, note: event.target.value }), placeholder: "e.g. We need clearer ownership and evidence for our customer-facing AI assistant." })
+            ] }),
+            /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("p", { className: "form-notice wide", children: [
+              /* @__PURE__ */ (0, import_jsx_runtime.jsx)(ShieldCheck, { size: 16 }),
+              " This action opens your email client with a draft. Actuary does not store this request in the public demo."
+            ] }),
+            /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { className: "modal-actions wide", children: [
+              /* @__PURE__ */ (0, import_jsx_runtime.jsx)("button", { type: "button", className: "button tertiary", onClick: onClose, children: "Cancel" }),
+              /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("button", { className: "button primary", type: "submit", disabled: !canSubmit, children: [
+                /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Mail, { size: 17 }),
+                " Prepare pilot email"
+              ] })
+            ] })
+          ]
+        }
+      )
+    }
+  );
+}
 function PilotSetupModal({
   systems,
   pilot,
@@ -24158,6 +24321,7 @@ lucide-react/dist/esm/icons/file-text.js:
 lucide-react/dist/esm/icons/funnel.js:
 lucide-react/dist/esm/icons/gauge.js:
 lucide-react/dist/esm/icons/layout-dashboard.js:
+lucide-react/dist/esm/icons/mail.js:
 lucide-react/dist/esm/icons/plus.js:
 lucide-react/dist/esm/icons/rocket.js:
 lucide-react/dist/esm/icons/search.js:
